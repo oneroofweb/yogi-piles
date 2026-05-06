@@ -90,8 +90,9 @@
               class="badge bg-white text-primary rounded-pill px-3 py-2 shadow-sm mb-3 fw-600"
               >Leading Anorectal Centre in Lucknow</span
             >
-            <h1>Expert, Painless <span>Piles, Fissure, and
-              Fistula</span> Care</h1>
+            <h1>
+              Expert, Painless <span>Piles, Fissure, and Fistula</span> Care
+            </h1>
             <p class="lead">
               Specialized Laser & Ksharsutra treatments for Piles, Fissure, and
               Fistula. Permanent relief with Gold Medalist expertise.
@@ -113,13 +114,68 @@
               </a>
             </div>
           </div>
+          <!-- Hero Carousel Image Slider -->
           <div class="col-lg-6 hero-image-col">
-            <!-- Placeholder graphic - replace with professional illustration or image of clinic/doctor -->
-            <img
-              src="images/hero-image2.jpeg"
-              alt="Doctor providing care"
-              class="hero-image rounded-4"
-            />
+            <!-- data-bs-ride="carousel" ensures continuous auto-slide, data-bs-interval sets speed (3000 = 3 seconds) -->
+            <div
+              id="heroCarousel"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+              data-bs-interval="3000"
+              data-bs-touch="true"
+            >
+              <!-- Slider Images -->
+              <div class="carousel-inner shadow-lg" style="border-radius: 20px">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                  <img
+                    src="images/gallery/hero-slide1.jpeg"
+                    class="d-block w-100 hero-carousel-img"
+                    alt="Doctor Consultation"
+                  />
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                  <img
+                    src="images/gallery/hero-slide2.jpeg"
+                    class="d-block w-100 hero-carousel-img"
+                    alt="Advanced Clinic Equipment"
+                  />
+                </div>
+                <!-- Slide 3
+                <div class="carousel-item">
+                  <img
+                    src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=800"
+                    class="d-block w-100 hero-carousel-img"
+                    alt="Patient Care"
+                  />
+                </div> -->
+              </div>
+
+              <!-- Dot Indicators (No Arrows) -->
+              <div class="carousel-indicators hero-carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#heroCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#heroCarousel"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <!-- <button
+                  type="button"
+                  data-bs-target="#heroCarousel"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -186,8 +242,8 @@
             </h2>
 
             <p class="excellence-text">
-              <strong>Dr. R.N. Rathore & Teams</strong> is a highly respected Ayurvedic
-              specialist with over
+              <strong>Dr. R.N. Rathore & Teams</strong> is a highly respected
+              Ayurvedic specialist with over
               <strong>25 years of clinical experience</strong> in treating
               anorectal disorders such as piles (hemorrhoids), fissure, and
               fistula. A proud <strong>BAMS Gold Medalist</strong>, he has also
@@ -277,7 +333,8 @@
                 <h4 class="dr-name">Dr Aditi Maurya</h4>
                 <span class="dr-deg">BAMS</span>
                 <p class="text-muted small mt-2">
-                  Ksharsutra & Laser specialist with a focus on patient comfort and holistic care.
+                  Ksharsutra & Laser specialist with a focus on patient comfort
+                  and holistic care.
                 </p>
                 <hr class="my-3 opacity-25" />
                 <!-- Attractive Premium Button -->
@@ -302,7 +359,8 @@
                 <h4 class="dr-name">Dr Atul Mishra</h4>
                 <span class="dr-deg">BAMS</span>
                 <p class="text-muted small mt-2">
-                  Specializes in Male Sexual Health and post-operative Ayurvedic care for anorectal disorders.
+                  Specializes in Male Sexual Health and post-operative Ayurvedic
+                  care for anorectal disorders.
                 </p>
                 <hr class="my-3 opacity-25" />
                 <!-- Attractive Premium Button -->
@@ -326,7 +384,11 @@
         <div class="text-center mb-5">
           <h2 class="section-title">Our Specialized Treatments</h2>
           <p class="section-subtitle">
-            At Yogipiles & Panchkarma Center, we combine the ancient wisdom of Ayurveda with the precision of modern technology to offer safe, effective, and minimally invasive treatments for anorectal disorders. Every procedure is carefully selected based on the patient’s condition, lifestyle, and recovery goals.
+            At Yogipiles & Panchkarma Center, we combine the ancient wisdom of
+            Ayurveda with the precision of modern technology to offer safe,
+            effective, and minimally invasive treatments for anorectal
+            disorders. Every procedure is carefully selected based on the
+            patient’s condition, lifestyle, and recovery goals.
           </p>
         </div>
 
@@ -344,7 +406,10 @@
                   Laser Surgery for Piles, Fissure & Fistula
                 </h4>
                 <p class="text-muted mb-0">
-                  A minimally invasive, painless technique using precision laser energy to remove or shrink affected tissues. It ensures quick recovery, less bleeding, and short hospital stay — often performed as a daycare procedure.
+                  A minimally invasive, painless technique using precision laser
+                  energy to remove or shrink affected tissues. It ensures quick
+                  recovery, less bleeding, and short hospital stay — often
+                  performed as a daycare procedure.
                 </p>
               </div>
             </div>
@@ -363,7 +428,11 @@
                   Ksharsutra Therapy
                 </h4>
                 <p class="text-muted mb-0">
-                  An Ayurvedic para-surgical treatment ideal for fistula-in-ano. A medicated thread is inserted into the tract, which gradually cuts, cleans, and heals it naturally. This method is highly effective with low recurrence, making it a gold standard in Ayurveda.
+                  An Ayurvedic para-surgical treatment ideal for fistula-in-ano.
+                  A medicated thread is inserted into the tract, which gradually
+                  cuts, cleans, and heals it naturally. This method is highly
+                  effective with low recurrence, making it a gold standard in
+                  Ayurveda.
                 </p>
               </div>
             </div>
@@ -382,8 +451,10 @@
                   Ayurvedic Herbal Treatment
                 </h4>
                 <p class="text-muted mb-0">
-                  Customized internal and external herbal formulations help reduce inflammation, control bleeding, relieve constipation, and promote tissue healing. These remedies are side-effect-free and support long-term gut health.
-
+                  Customized internal and external herbal formulations help
+                  reduce inflammation, control bleeding, relieve constipation,
+                  and promote tissue healing. These remedies are
+                  side-effect-free and support long-term gut health.
                 </p>
               </div>
             </div>
@@ -402,7 +473,10 @@
                   Panchkarma Detox Therapy
                 </h4>
                 <p class="text-muted mb-0">
-                  Procedures like Basti (medicated enema) and Virechana (therapeutic purgation) are used to detoxify the digestive system. Panchkarma strengthens the colon and prevents recurrence of anorectal issues.
+                  Procedures like Basti (medicated enema) and Virechana
+                  (therapeutic purgation) are used to detoxify the digestive
+                  system. Panchkarma strengthens the colon and prevents
+                  recurrence of anorectal issues.
                 </p>
               </div>
             </div>
@@ -420,7 +494,10 @@
                   Anal Dilation & Fissure Management
                 </h4>
                 <p class="text-muted mb-0">
-                  For chronic anal fissures, we use a combination of anal dilation, soothing Ayurvedic ointments, and muscle relaxants to reduce spasms and promote painless healing — avoiding the need for surgical intervention in many cases.
+                  For chronic anal fissures, we use a combination of anal
+                  dilation, soothing Ayurvedic ointments, and muscle relaxants
+                  to reduce spasms and promote painless healing — avoiding the
+                  need for surgical intervention in many cases.
                 </p>
               </div>
             </div>
@@ -438,7 +515,10 @@
                   Diet & Lifestyle Counseling
                 </h4>
                 <p class="text-muted mb-0">
-                  Since digestive health plays a major role in anorectal disorders, we provide personalized diet plans, lifestyle guidance, and daily routines based on Ayurvedic principles to support faster healing and prevent recurrence.
+                  Since digestive health plays a major role in anorectal
+                  disorders, we provide personalized diet plans, lifestyle
+                  guidance, and daily routines based on Ayurvedic principles to
+                  support faster healing and prevent recurrence.
                 </p>
               </div>
             </div>
@@ -448,144 +528,240 @@
     </section>
 
     <!--=== Patient Reviews Section ===-->
-<section id="reviews" class="reviews-section">
-  <div class="container reviews-container">
-    
-    <div class="text-center mb-5">
-      <!-- Premium highlight badge -->
-      <span class="badge bg-white shadow-sm mb-3 px-3 py-2 rounded-pill fw-bold" style="color: var(--secondary-healing-teal); border: 1px solid rgba(20, 184, 166, 0.2);">
-        <i class="fas fa-star text-warning me-1"></i> Verified Patient Feedback
-      </span>
-      
-      <h2 class="section-title">What Our Patients Say</h2>
-      <p class="section-subtitle">Real experiences and success stories from patients who found permanent relief with our advanced treatments.</p>
-    </div>
+    <section id="reviews" class="reviews-section">
+      <div class="container reviews-container">
+        <div class="text-center mb-5">
+          <!-- Premium highlight badge -->
+          <span
+            class="badge bg-white shadow-sm mb-3 px-3 py-2 rounded-pill fw-bold"
+            style="
+              color: var(--secondary-healing-teal);
+              border: 1px solid rgba(20, 184, 166, 0.2);
+            "
+          >
+            <i class="fas fa-star text-warning me-1"></i> Verified Patient
+            Feedback
+          </span>
 
-    <!-- Widget Container -->
-    <div class="row justify-content-center">
-      <div class="col-lg-10">
-        <div class="elfsight-wrapper">
-            
-          <!-- Elfsight Google Reviews | Untitled Google Reviews -->
-          <script src="https://elfsightcdn.com/platform.js" async></script>
-          <div class="elfsight-app-4aba8a4c-b860-47f4-a855-e00eca385164" data-elfsight-app-lazy></div>
-          
+          <h2 class="section-title">What Our Patients Say</h2>
+          <p class="section-subtitle">
+            Real experiences and success stories from patients who found
+            permanent relief with our advanced treatments.
+          </p>
+        </div>
+
+        <!-- Widget Container -->
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="elfsight-wrapper">
+              <!-- Elfsight Google Reviews | Untitled Google Reviews -->
+              <script src="https://elfsightcdn.com/platform.js" async></script>
+              <div
+                class="elfsight-app-4aba8a4c-b860-47f4-a855-e00eca385164"
+                data-elfsight-app-lazy
+              ></div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-
-  </div>
-</section>
+    </section>
 
     <!-- Clinic Gallery Section -->
-<section id="gallery" class="gallery-section bg-light">
-  <div class="container">
-    <div class="text-center">
-      <h2 class="section-title">Clinic Infrastructure</h2>
-      <p class="section-subtitle">Take a tour of our highly hygienic and advanced anorectal care center.</p>
+    <section id="gallery" class="gallery-section bg-light">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-title">Clinic Infrastructure</h2>
+          <p class="section-subtitle">
+            Take a tour of our highly hygienic and advanced anorectal care
+            center.
+          </p>
+        </div>
+
+        <!-- Grid Layout -->
+        <!-- g-3 or g-4 gives perfect spacing between images -->
+        <div class="row g-3 g-md-4">
+          <!-- Image 1 -->
+          <div class="col-6 col-lg-4">
+            <div
+              class="gallery-item"
+              data-bs-toggle="modal"
+              data-bs-target="#lightboxModal"
+              onclick="openLightbox(0)"
+            >
+              <img src="images/gallery/1.jpg" alt="Clinic Interior" />
+              <div class="gallery-overlay">
+                <i class="fas fa-expand-arrows-alt"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 2 -->
+          <div class="col-6 col-lg-4">
+            <div
+              class="gallery-item"
+              data-bs-toggle="modal"
+              data-bs-target="#lightboxModal"
+              onclick="openLightbox(1)"
+            >
+              <img src="images/gallery/2.jpg" alt="Advanced Equipment" />
+              <div class="gallery-overlay">
+                <i class="fas fa-expand-arrows-alt"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 3 -->
+          <div class="col-6 col-lg-4">
+            <div
+              class="gallery-item"
+              data-bs-toggle="modal"
+              data-bs-target="#lightboxModal"
+              onclick="openLightbox(2)"
+            >
+              <img src="images/gallery/3.jpg" alt="Consultation Room" />
+              <div class="gallery-overlay">
+                <i class="fas fa-expand-arrows-alt"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 4 -->
+          <div class="col-6 col-lg-4">
+            <div
+              class="gallery-item"
+              data-bs-toggle="modal"
+              data-bs-target="#lightboxModal"
+              onclick="openLightbox(3)"
+            >
+              <img src="images/gallery/4.jpg" alt="Waiting Area" />
+              <div class="gallery-overlay">
+                <i class="fas fa-expand-arrows-alt"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 5 -->
+          <div class="col-6 col-lg-4">
+            <div
+              class="gallery-item"
+              data-bs-toggle="modal"
+              data-bs-target="#lightboxModal"
+              onclick="openLightbox(4)"
+            >
+              <img src="images/gallery/5.jpg" alt="Panchkarma Setup" />
+              <div class="gallery-overlay">
+                <i class="fas fa-expand-arrows-alt"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 6 -->
+          <div class="col-6 col-lg-4">
+            <div
+              class="gallery-item"
+              data-bs-toggle="modal"
+              data-bs-target="#lightboxModal"
+              onclick="openLightbox(5)"
+            >
+              <img src="images/gallery/6.jpg" alt="Ayurvedic Medicines" />
+              <div class="gallery-overlay">
+                <i class="fas fa-expand-arrows-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Modal (Hidden by default) -->
+    <div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+
+          <!-- Manual Slider inside Modal -->
+          <div id="galleryCarousel" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner text-center">
+              <div class="carousel-item active">
+                <img
+                  src="images/gallery/1.jpg"
+                  class="lightbox-img"
+                  alt="Gallery 1"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/gallery/2.jpg"
+                  class="lightbox-img"
+                  alt="Gallery 2"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/gallery/3.jpg"
+                  class="lightbox-img"
+                  alt="Gallery 3"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/gallery/4.jpg"
+                  class="lightbox-img"
+                  alt="Gallery 4"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/gallery/5.jpg"
+                  class="lightbox-img"
+                  alt="Gallery 5"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/gallery/6.jpg"
+                  class="lightbox-img"
+                  alt="Gallery 6"
+                />
+              </div>
+            </div>
+
+            <!-- Manual Slide Navigation Buttons -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#galleryCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+                style="filter: invert(1); width: 3rem; height: 3rem"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#galleryCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+                style="filter: invert(1); width: 3rem; height: 3rem"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <!-- Grid Layout -->
-    <!-- g-3 or g-4 gives perfect spacing between images -->
-    <div class="row g-3 g-md-4">
-      
-      <!-- Image 1 -->
-      <div class="col-6 col-lg-4">
-        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#lightboxModal" onclick="openLightbox(0)">
-          <img src="images/gallery/1.jpg" alt="Clinic Interior">
-          <div class="gallery-overlay"><i class="fas fa-expand-arrows-alt"></i></div>
-        </div>
-      </div>
-
-      <!-- Image 2 -->
-      <div class="col-6 col-lg-4">
-        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#lightboxModal" onclick="openLightbox(1)">
-          <img src="images/gallery/2.jpg" alt="Advanced Equipment">
-          <div class="gallery-overlay"><i class="fas fa-expand-arrows-alt"></i></div>
-        </div>
-      </div>
-
-      <!-- Image 3 -->
-      <div class="col-6 col-lg-4">
-        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#lightboxModal" onclick="openLightbox(2)">
-          <img src="images/gallery/3.jpg" alt="Consultation Room">
-          <div class="gallery-overlay"><i class="fas fa-expand-arrows-alt"></i></div>
-        </div>
-      </div>
-
-      <!-- Image 4 -->
-      <div class="col-6 col-lg-4">
-        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#lightboxModal" onclick="openLightbox(3)">
-          <img src="images/gallery/4.jpg" alt="Waiting Area">
-          <div class="gallery-overlay"><i class="fas fa-expand-arrows-alt"></i></div>
-        </div>
-      </div>
-
-      <!-- Image 5 -->
-      <div class="col-6 col-lg-4">
-        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#lightboxModal" onclick="openLightbox(4)">
-          <img src="images/gallery/5.jpg" alt="Panchkarma Setup">
-          <div class="gallery-overlay"><i class="fas fa-expand-arrows-alt"></i></div>
-        </div>
-      </div>
-
-      <!-- Image 6 -->
-      <div class="col-6 col-lg-4">
-        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#lightboxModal" onclick="openLightbox(5)">
-          <img src="images/gallery/6.jpg" alt="Ayurvedic Medicines">
-          <div class="gallery-overlay"><i class="fas fa-expand-arrows-alt"></i></div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- Lightbox Modal (Hidden by default) -->
-<div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content">
-      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      
-      <!-- Manual Slider inside Modal -->
-      <div id="galleryCarousel" class="carousel slide" data-bs-ride="false">
-        <div class="carousel-inner text-center">
-          
-          <div class="carousel-item active">
-            <img src="images/gallery/1.jpg" class="lightbox-img" alt="Gallery 1">
-          </div>
-          <div class="carousel-item">
-            <img src="images/gallery/2.jpg" class="lightbox-img" alt="Gallery 2">
-          </div>
-          <div class="carousel-item">
-            <img src="images/gallery/3.jpg" class="lightbox-img" alt="Gallery 3">
-          </div>
-          <div class="carousel-item">
-            <img src="images/gallery/4.jpg" class="lightbox-img" alt="Gallery 4">
-          </div>
-          <div class="carousel-item">
-            <img src="images/gallery/5.jpg" class="lightbox-img" alt="Gallery 5">
-          </div>
-          <div class="carousel-item">
-            <img src="images/gallery/6.jpg" class="lightbox-img" alt="Gallery 6">
-          </div>
-
-        </div>
-        
-        <!-- Manual Slide Navigation Buttons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(1); width: 3rem; height: 3rem;"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(1); width: 3rem; height: 3rem;"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-    </div>
-  </div>
-</div>
 
     <!-- ============ FAQ Section ============= -->
     <section id="faq" class="faq-section">

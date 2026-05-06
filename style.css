@@ -138,6 +138,41 @@ html {
   filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.1));
 }
 
+/* --- Hero Carousel Slider CSS --- */
+.hero-carousel-img {
+    height: 450px; /* Fixed height for consistency */
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px; /* Premium rounded corners */
+}
+
+/* Customizing Bootstrap Slider Dots */
+.hero-carousel-indicators {
+    bottom: -40px; /* Move dots slightly below the image */
+}
+.hero-carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--primary-medical-blue);
+    opacity: 0.3;
+    margin: 0 6px;
+    border: none;
+    transition: all 0.3s ease;
+}
+.hero-carousel-indicators .active {
+    background-color: var(--secondary-healing-teal);
+    opacity: 1;
+    transform: scale(1.2); /* Active dot slightly bigger */
+}
+
+/* Mobile Adjustment for Hero Slider */
+@media (max-width: 991px) {
+    .hero-carousel-img {
+        height: 350px;
+    }
+}
+
 /* --- Doctors Section (CRUCIAL FOR TRUST) --- */
 .doctors-section {
   padding: 100px 0;
